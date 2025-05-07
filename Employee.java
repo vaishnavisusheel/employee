@@ -18,5 +18,7 @@ public class Employee
     public static void main(String[] args) {
             Employee emp1=new Employee("xyz",101,50000);
             emp1.displayInfo();
+            Employee emp2=new Employee("abc",2,500000);
+            emp2.displayInfo();
     }
 }
